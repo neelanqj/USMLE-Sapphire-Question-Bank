@@ -1,0 +1,247 @@
+
+
+.center {
+	position:relative;			
+	margin:0 auto;
+}
+
+#nav-icons {
+	position:relative;
+	width: 210px;
+	display:inline-block;
+	padding:3px;
+}
+
+.greyout {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%); 	
+}
+
+#stop-icons {
+	width: 80px;
+	padding:3px;
+}
+
+#lock-icons {
+	width: 80px;
+	padding: 3px;
+}
+
+#timeleft-details {
+	padding: 3px;
+	padding-left:30px;
+	width:350px;
+	color:white;
+	border:thick;
+	border-color:#FFF;			
+}
+
+#questionnumber-details {
+	padding: 3px;
+	padding-left:30px;
+	padding-top:16px;
+	color:white;
+	font-size:25px;				
+}
+
+#flagquestion {
+	width:181px;
+	display:inline-block;
+	padding-left:100px;
+	padding-top:10px;
+	color:white;
+}
+
+#pages_frame {
+	position:absolute;
+	width:100px;;
+	height:95%;
+	float:left;
+	background-color:#CCC;
+	font-size:16px;
+	padding-top:21px;
+	padding-left:20px;
+	-moz-box-shadow: 4px 4px 14px #000; 
+	-webkit-box-shadow: 4px 4px 14px #000; 
+	box-shadow: 4px 4px 14px #000; 
+	border-bottom-right-radius: 2em 30em;
+	-moz-border-bottom-right-radius: 2em 30em;
+}
+
+#calculator {
+	position:absolute;
+	width:210px;
+	z-index:5;
+	background-color:#FFF;
+}
+
+#notepad {
+	position:absolute;
+	width:210px;
+	background-color:#CCC;
+	z-index:5;
+}
+
+#labvalues {
+	position:absolute;
+	width:350px;
+	height:500px;
+	background-color:#CCC;
+	overflow:scroll;
+	padding:10px;
+	z-index:5;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.span12 {
+	width:100%;
+	display:block;
+}
+
+/* AJAX loader CSS */
+.centerimage {
+   position:fixed;
+   top: 50%;
+   left: 50%;
+   width: 508px;
+   height: 381px;
+   margin-top: -254px; /* Half the height */
+   margin-left: -190.5px; /* Half the width */
+   box-shadow: 0.5em 0.5em 0.7em #333;
+   }
+   
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+   }
+   
+ /* Bootstrap Customization */
+ .accordion .accordion-group .accordion-heading a.accordion-toggle.collapsed {
+	 background: #e9e8e8  url(../img/toggle-in.png) no-repeat 0 11px;
+	 background-position:right;
+	 border-right: 10px solid transparent;
+	 }
+	 
+.accordion .accordion-group .accordion-heading a.accordion-toggle {
+	 background: #e9e8e8 url(../img/toggle-out.png) no-repeat 0 20px;
+	 background-position:right;
+	 border-right: 10px solid transparent;
+	 }
+	 
+	#help-icons {
+		width: 250px;
+		padding:3px;
+		display:inline-block;
+	}
+		 
+/* Responsive Coding */
+@media (min-width:767px) {	
+	#header {
+		position:relative;
+		top: 0px;
+		width:100%;
+		padding-left:50px;
+		padding-left:20px;
+		border-bottom-radius: 30em;
+		-moz-border-bottom-radius: 30em;
+	}
+	
+	#footer-quiz {
+		/* position:relative; */
+		position: absolute;
+		display:block;
+		bottom: 0px !important;
+		padding:10px;
+		width:88%;
+		height:86px;
+		border-top-radius: 30px !important;
+		-moz-border-top-radius: 30px !important;
+		bottom: 0px;
+		right:0px;
+	}
+	
+	#questions_frame {
+		width:90%;
+		height:99%;
+		float:right;
+		overflow:hidden;
+	}
+	
+	#question_body {
+		position:relative;
+		overflow-y:scroll;
+		width:90%;
+		padding:5%;
+		height:370px;
+	}
+	
+	.controlFrame {
+		background-color:#000;
+		height:66px;
+	}
+	
+	.rfloat {
+		position:relative;
+		float:right;
+		right:0px;
+	}
+	
+	.lfloat {
+		position:relative;
+		float:left;
+	}	
+}
+
+@media (max-width:767px) {	
+	#header {
+		position:relative;
+		top: 0px;
+		width:100%;
+	}
+	
+	#footer-quiz {
+		position:relative;
+		display:block;
+		bottom: 0px !important;
+		width:100%;
+		bottom: 0px;
+		right:0px;
+	}	
+
+	#questions_frame {
+		width:100%;
+	}
+
+	#question_body {
+		position:relative;
+		overflow-y:scroll;
+		width:100%;
+		background-color:#FFF;
+		min-height:500px;
+		padding-top:30px;
+	}
+	.controlFrame {
+		position:relative;
+		background-color:#000;
+		text-align:center;
+	}
+	
+	.rfloat {
+		position:relative;
+		margin: 0px auto;
+	}
+	
+	.lfloat {
+		position:relative;
+		margin: 0px auto;
+	}	
+}

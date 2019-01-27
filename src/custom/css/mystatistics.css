@@ -1,0 +1,54 @@
+.titleconfig {
+	position:relative;
+	background-image:url(../img/mystatistics.jpg);
+	height:350px;
+	overflow:hidden;
+	z-index:1;
+	color:#000;
+	text-align: left;
+	margin: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 950px;
+}
+
+#title {
+	position:absolute;
+	font-size:35px;
+	font-style:oblique;
+	color:#FFF;
+	top:160px;	
+	left:120px;
+}
+
+#content {
+	background-color:#CCC;
+}
+
+@media (min-width:767px) {
+	#content {
+		position:relative;
+		background-color:#CCC;
+		margin-left:auto;
+		margin-right:auto;
+		padding:50px;
+		width:850px;
+	}
+}
+
+#history {
+	overflow-y: scroll;
+	height:840px;	
+	z-index:7;
+}
+
+#modalTestResults {
+	font-weight:700;
+	font-size:36px;
+	color:#0F0;
+	text-align:center;	
+}
+
+.heavy {
+	font-weight: 700;	
+}

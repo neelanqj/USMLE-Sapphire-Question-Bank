@@ -1,0 +1,28 @@
+#titlenews {
+	position:relative;
+	height:300px;
+	width:766px;
+	z-index:1;
+	top:0px;
+	margin-top: 100px;
+	margin-left:60px;;
+	margin-bottom:30px;
+	background-color:#FFF;
+	
+}
+
+.titleconfig {
+	position:absolute;
+	background-image:url(../img/news.jpg);
+	height:300px;
+	width: 500px;
+}
+
+.titlenewstext {
+	position:relative;
+	left: 520px;
+	top:120px;
+	width:250px;
+	font-weight:700;
+	font-size:24px;
+}

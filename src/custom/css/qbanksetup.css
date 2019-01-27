@@ -1,0 +1,45 @@
+/* CSS Document */
+	#channels {
+		position:relative;
+		background-color:#FFF;
+	}
+	
+/* Responsive Coding */
+@media (min-width:767px) {
+	#channels {
+		position:relative;
+		height:460px !important;
+		color:#000;
+		text-align: left;
+		margin: 0px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:30px;
+		padding-top:21px;
+		padding-left:0px;
+		padding-right:0px;	
+		width: 950px;
+		top:41px;
+		overflow:visible;
+		z-index:10;
+	}
+	
+	#floater {
+		position:absolute;
+		top:0px;
+		left:500px;
+		width:400px;
+		height:480px;
+		background-image:url(../img/skeleton.jpg);
+		background-repeat:no-repeat;
+		background-position:left;
+		opacity:0.1;
+		z-index:-1;
+	}
+}
+
+@media (max-width:767px) {	
+	#floater {
+		display:none;
+	}
+}

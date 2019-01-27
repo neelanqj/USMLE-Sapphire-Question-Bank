@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset=utf-8" />
+    <script src="src/js/library/jquery-1.10.2.min.js"></script>
+    <style>
+        body {
+            width: 1026px;
+            margin: 100px auto 0;
+        }
+        
+        * { margin: 0px; padding: 0px; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="src/css/slider.css">
+    <script src="src/js/custom/slider.js"></script>
+    <title>Monster Creative Studios Slider</title>
+</head>
+
+<body>
+	<div id="discount"></div>
+	<div class="slider">
+    	<ul>
+        	<li><img src="src/img/slider1.jpg" data-time="5000" width="1026" height="489"></li>
+            <li><img src="src/img/slider2.jpg" data-time="10000"  width="1026" height="489"></li>
+            <li><img src="src/img/slider3.jpg" data-time="7500" width="1026" height="489"></li>
+            <li><img src="src/img/slider4.jpg" data-time="7500" width="1026" height="489"></li>
+        </ul>
+        <div id="slider-nav"></div>
+    </div>
+    
+	<script>
+    	var container = $('div.slider').css('overflow', 'hidden').children('ul');
+    	var slider = new Slider( container, $('#slider-nav') );
+        
+        slider.start();
+    </script>
+</body>
+</html>

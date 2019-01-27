@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* CSS Document */
+html, body
+{
+  width: 100%;
+  margin: 0px;
+  background-image:url(../img/Hacker_Redux_by_HashBox.jpg); 
+  background-color:#000;
+  color:#0F0
+}
+
+.centerimage {
+   position:fixed;
+   top: 10%;
+   left: 17%;
+   width: 1280px;
+   height: 1024px;
+   margin-top: -254px; /* Half the height */
+   margin-left: -190.5px; /* Half the width */
+   box-shadow: 0.5em 0.5em 0.7em #333;
+   }

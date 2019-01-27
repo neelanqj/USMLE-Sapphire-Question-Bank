@@ -1,0 +1,44 @@
+#mainbody {
+	position: relative;
+	padding-top:70px;
+	height: 500px;	
+	background-color:#FFF;
+}
+
+.news-item {
+	/*border-style:solid;
+	border-radius: 5px;
+	border-color:#CCC;*/
+	background-color:#999;
+	padding:7px;
+	width:100%;
+	margin-bottom:5px;
+}
+
+#channels {
+	position:relative;
+	height:350px !important;
+	margin-left:auto;
+	margin-right:auto;
+	width: 950px;
+	top:41px;
+	overflow:visible;
+	z-index:10;
+}
+
+@media (min-width:767px) {
+	.slider ul {
+		margin-left:0px	
+	}
+	
+	#content {
+		position:relative;
+		background-color:#FFF;
+		top:41px;
+		margin-left:auto;
+		margin-right:auto;
+		padding-bottom:100px;
+		width:950px;
+		height:410px;
+	}
+}
